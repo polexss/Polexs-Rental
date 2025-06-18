@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirala</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="rental-ui" style="display: none;">
+    <button class="close-btn" onclick="closeMenu()">X</button>
+    <h2 class="ui-title">Araç Kirala</h2>
+
+    <div class="category-block">
+      <h3 class="category-title">Araçlar</h3>
+      <div id="vehicle-list" class="vehicle-scroll-container"></div>
+    </div>
+
+    <div class="category-block">
+      <h3 class="category-title">Motosikletler</h3>
+      <div id="motorcycle-list" class="vehicle-scroll-container"></div>
+    </div>
+  </div>
+</body>
+</html>
